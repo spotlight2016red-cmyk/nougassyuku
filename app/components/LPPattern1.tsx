@@ -206,6 +206,67 @@ export function LPPattern1() {
         </div>
       </section>
 
+      {/* What You Complete */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl text-gray-800 mb-4">
+              合宿で完成するもの
+            </h2>
+            <p className="text-xl md:text-2xl text-[#FF9966] font-medium">
+              あなただけの「脳の取扱説明書」
+            </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <p className="text-lg text-gray-700 leading-relaxed">
+              合宿の最後には、<br className="hidden md:block" />
+              自分の反応パターン・強み・疲れやすい状態・整え方をまとめた<br className="hidden md:block" />
+              自分専用の取扱説明書をつくります。
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-[#FFF5EB] to-[#F5F0E8] rounded-3xl shadow-xl p-8 md:p-12 border-4 border-[#FFE5D0]">
+            <p className="text-center text-gray-600 mb-8">
+              整理する内容は、たとえば以下です。
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-4">
+              {[
+                '自分が強く反応しやすい言葉',
+                '力が出る環境',
+                '疲れやすい環境',
+                '思考・感情・記憶・身体のクセ',
+                '弱みだと思っていた強み',
+                '自分を整える方法',
+                '30日以内に試す一歩',
+              ].map((item, idx) => (
+                <div
+                  key={idx}
+                  className={`flex items-center gap-4 p-5 bg-white rounded-2xl shadow-sm border-2 border-gray-100 hover:border-[#FF9966] transition-colors ${
+                    idx === 6 ? 'md:col-span-2 md:max-w-md md:mx-auto md:w-full' : ''
+                  }`}
+                >
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF9966] to-[#FFB366] rounded-xl flex items-center justify-center flex-shrink-0 text-white font-medium text-sm shadow-md">
+                    {idx + 1}
+                  </div>
+                  <p className="text-gray-800 font-medium">{item}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-10 flex justify-center">
+              <div className="inline-flex items-center gap-3 bg-white px-6 py-4 rounded-2xl shadow-md border-2 border-[#FFE5D0]">
+                <span className="text-3xl">📖</span>
+                <p className="text-gray-700">
+                  合宿後も何度でも見返せる、<span className="text-[#FF9966] font-medium">あなた専用のガイドブック</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Grid */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
