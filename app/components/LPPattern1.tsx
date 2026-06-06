@@ -325,6 +325,7 @@ export function LPPattern1() {
                 <div>
                   <h3 className="text-lg font-medium mb-1 text-gray-800">日程</h3>
                   <p className="text-gray-600">6月末開催予定</p>
+                  <p className="text-gray-600">1泊2日</p>
                 </div>
               </div>
 
@@ -356,6 +357,7 @@ export function LPPattern1() {
                 <span className="text-4xl">💰</span>
                 <div>
                   <h3 className="text-lg font-medium mb-1 text-gray-800">参加費</h3>
+                  <p className="text-gray-600 mb-1">通常：15,000円</p>
                   <p className="text-gray-700">
                     <span className="text-[#FF9966] font-bold text-xl">初回モニター価格：12,000円</span>
                   </p>
