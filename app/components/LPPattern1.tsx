@@ -1,6 +1,8 @@
 import { Brain, Map, Heart, Lightbulb, ArrowRight, Users, Sprout } from 'lucide-react';
 import brainDiagram from '../../imports/ChatGPT_Image_2026_5_21__12_50_33.png';
 
+const LINE_URL = 'https://lin.ee/WD2dKl7';
+
 export function LPPattern1() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#FFF5EB] to-[#F5F0E8]">
@@ -31,10 +33,15 @@ export function LPPattern1() {
                 </p>
               </div>
 
-              <button className="bg-[#FF9966] hover:bg-[#FF8850] text-white px-10 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 inline-flex items-center gap-2">
+              <a
+                href={LINE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#FF9966] hover:bg-[#FF8850] text-white px-10 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 inline-flex items-center gap-2"
+              >
                 参加・相談してみる
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </a>
             </div>
 
             <div className="relative">
@@ -391,10 +398,15 @@ export function LPPattern1() {
           <p className="text-xl text-gray-600 mb-10">
             参加に興味がある方は、直接ご相談ください。
           </p>
-          <button className="bg-gradient-to-r from-[#FF9966] to-[#FFB366] hover:from-[#FF8850] hover:to-[#FFA050] text-white px-12 py-5 rounded-full text-xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1 inline-flex items-center gap-3">
+          <a
+            href={LINE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-[#FF9966] to-[#FFB366] hover:from-[#FF8850] hover:to-[#FFA050] text-white px-12 py-5 rounded-full text-xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1 inline-flex items-center gap-3"
+          >
             参加・相談してみる
             <ArrowRight className="w-6 h-6" />
-          </button>
+          </a>
         </div>
       </section>
 
