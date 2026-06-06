@@ -272,7 +272,7 @@ export function LPPattern1() {
                 <span className="text-4xl">📅</span>
                 <div>
                   <h3 className="text-lg font-medium mb-1 text-gray-800">日程</h3>
-                  <p className="text-gray-600">6月開催予定</p>
+                  <p className="text-gray-600">6月末開催予定</p>
                 </div>
               </div>
 
@@ -285,33 +285,44 @@ export function LPPattern1() {
               </div>
 
               <div className="flex gap-4 items-start">
-                <span className="text-4xl">👥</span>
+                <span className="text-4xl">👤</span>
+                <div>
+                  <h3 className="text-lg font-medium mb-1 text-gray-800">人数</h3>
+                  <p className="text-gray-600">3〜5名</p>
+                </div>
+              </div>
+
+              <div className="flex gap-4 items-start">
+                <span className="text-4xl">🤝</span>
                 <div>
                   <h3 className="text-lg font-medium mb-1 text-gray-800">形式</h3>
                   <p className="text-gray-600">知り合い・紹介制のクローズド合宿</p>
                 </div>
               </div>
 
-              <div className="flex gap-4 items-start">
+              <div className="flex gap-4 items-start md:col-span-2">
                 <span className="text-4xl">💰</span>
                 <div>
                   <h3 className="text-lg font-medium mb-1 text-gray-800">参加費</h3>
-                  <span className="inline-block bg-[#FF9966] text-white text-xs font-medium px-3 py-1 rounded-full mb-2">
-                    初回限定割引
-                  </span>
-                  <p className="text-gray-600">
-                    <span className="line-through text-gray-400 mr-2">15,000円</span>
-                    <span className="text-[#FF9966] font-bold text-xl">12,000円</span>
+                  <p className="text-gray-700">
+                    <span className="text-[#FF9966] font-bold text-xl">初回モニター価格：12,000円</span>
                   </p>
+                  <p className="text-sm text-gray-500 mt-1">※宿泊費・食費は実費</p>
                 </div>
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-white/80 backdrop-blur rounded-2xl text-center">
-              <p className="text-gray-700 text-lg">
-                宿泊費・食費は実費予定<br />
-                <span className="text-[#FF9966] font-medium">少人数で安心して対話できる場にします</span>
-              </p>
+            <div className="mt-8 p-6 bg-white/80 backdrop-blur rounded-2xl">
+              <div className="flex gap-4 items-start">
+                <span className="text-4xl">📋</span>
+                <div>
+                  <h3 className="text-lg font-medium mb-2 text-gray-800">内容</h3>
+                  <p className="text-gray-700 text-lg leading-relaxed">
+                    対話・ワーク・共同生活を通して、<br />
+                    自分だけの「脳の取扱説明書」を作成します。
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
