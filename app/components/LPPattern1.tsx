@@ -296,7 +296,13 @@ export function LPPattern1() {
                 <span className="text-4xl">💰</span>
                 <div>
                   <h3 className="text-lg font-medium mb-1 text-gray-800">参加費</h3>
-                  <p className="text-gray-600">15,000円〜30,000円で調整中</p>
+                  <span className="inline-block bg-[#FF9966] text-white text-xs font-medium px-3 py-1 rounded-full mb-2">
+                    初回限定割引
+                  </span>
+                  <p className="text-gray-600">
+                    <span className="line-through text-gray-400 mr-2">15,000円</span>
+                    <span className="text-[#FF9966] font-bold text-xl">12,000円</span>
+                  </p>
                 </div>
               </div>
             </div>
