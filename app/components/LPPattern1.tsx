@@ -15,28 +15,19 @@ export function LPPattern1() {
               </div>
 
               <div>
-                <h1 className="text-4xl md:text-6xl text-gray-800 leading-tight mb-4">
-                  自分の脳を知って<br />
-                  <span className="bg-gradient-to-r from-[#FF9966] to-[#FFB366] bg-clip-text text-transparent">アップデート</span>
+                <h1 className="text-4xl md:text-5xl text-gray-800 leading-tight mb-4 font-bold">
+                  脳内アップデート合宿
                 </h1>
-                <div className="bg-gradient-to-r from-[#FF9966] to-[#FFB366] px-6 py-3 rounded-2xl inline-block">
-                  <p className="text-white text-2xl md:text-3xl font-bold">
-                    通称ー脳合宿！
-                  </p>
-                </div>
+                <p className="text-xl md:text-2xl text-[#FF9966] font-medium leading-relaxed">
+                  〜自分を責める時間を、<br className="md:hidden" />
+                  自分を知る時間に変える〜
+                </p>
               </div>
 
               <div className="pt-4">
                 <p className="text-xl text-gray-700">
                   合宿を通じてあなただけの<br />
                   <span className="text-[#FF9966] font-medium">脳図鑑</span>を完成させます！
-                </p>
-              </div>
-
-              <div className="py-4">
-                <p className="text-2xl text-gray-800">
-                  自分を責める時間を、<br />
-                  <span className="text-[#FF9966] font-medium">自分を知る時間</span>に変える。
                 </p>
               </div>
 
@@ -409,8 +400,8 @@ export function LPPattern1() {
       <footer className="bg-gray-800 text-gray-300 py-12">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <Brain className="w-8 h-8 mx-auto mb-4 text-[#FF9966]" />
-          <p className="text-sm">自分の脳の取扱説明書 合宿</p>
-          <p className="text-xs mt-2 text-gray-400">― 役割を生きるための反応パターン診断 ―</p>
+          <p className="text-sm">脳内アップデート合宿</p>
+          <p className="text-xs mt-2 text-gray-400">〜自分を責める時間を、自分を知る時間に変える〜</p>
         </div>
       </footer>
     </div>
