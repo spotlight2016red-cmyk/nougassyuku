@@ -136,8 +136,66 @@ export function LPPattern1() {
         </div>
       </section>
 
-      {/* Visual Workshop Flow */}
+      {/* Pre-event Diagnosis */}
       <section className="py-20 bg-gradient-to-b from-[#FFF5EB] to-white">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl text-gray-800 mb-4">
+              合宿までの準備
+            </h2>
+            <p className="text-xl text-[#FF9966] font-medium">
+              事前の簡易アプリ診断から始まります
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-2 border-[#FFE5D0]">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#E3F2FD] to-[#42A5F5] rounded-xl flex items-center justify-center text-2xl shadow-md">
+                  📱
+                </div>
+                <div>
+                  <p className="text-sm text-[#42A5F5] font-medium">合宿前</p>
+                  <h3 className="text-lg font-medium text-gray-800">簡易アプリ診断</h3>
+                </div>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                参加者の方には、事前に簡易アプリ診断のリンクをお送りします。
+                当日までに診断を行っていただき、自分の考え方・動き方・力が出やすい環境の傾向を仮で見える化します。
+              </p>
+            </div>
+
+            <div className="bg-white rounded-3xl shadow-lg p-8 border-2 border-[#FFE5D0]">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#FFE5D0] to-[#FF9966] rounded-xl flex items-center justify-center text-2xl shadow-md">
+                  🏕️
+                </div>
+                <div>
+                  <p className="text-sm text-[#FF9966] font-medium">合宿当日</p>
+                  <h3 className="text-lg font-medium text-gray-800">深掘りの対話・ワーク</h3>
+                </div>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                合宿当日は、その結果を入口に、対話やワークを通して
+                「自分らしく力を発揮する条件」を深掘りしていきます。
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 flex justify-center">
+            <div className="inline-flex items-center gap-3 text-gray-500 text-sm">
+              <span>事前診断</span>
+              <ArrowRight className="w-4 h-4 text-[#FF9966]" />
+              <span>合宿当日</span>
+              <ArrowRight className="w-4 h-4 text-[#FF9966]" />
+              <span className="text-[#FF9966] font-medium">取扱説明書の完成</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Visual Workshop Flow */}
+      <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl text-center text-gray-800 mb-16">
             5つのステップで自分を知る
