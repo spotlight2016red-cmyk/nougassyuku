@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom';
 import { Brain, Map, Heart, Lightbulb, ArrowRight, Users, Sprout } from 'lucide-react';
 import brainDiagram from '../../imports/ChatGPT_Image_2026_5_21__12_50_33.png';
-import { CAMP_BRAIN_CHECK_PATH } from '../../features/camp-brain-check';
+import { CAMP_BRAIN_CHECK_URL } from '../config';
 
 const LINE_URL = 'https://lin.ee/WD2dKl7';
 
@@ -192,13 +191,15 @@ export function LPPattern1() {
               <ArrowRight className="w-4 h-4 text-[#FF9966]" />
               <span className="text-[#FF9966] font-medium">取扱説明書の完成</span>
             </div>
-            <Link
-              to={CAMP_BRAIN_CHECK_PATH}
+            <a
+              href={CAMP_BRAIN_CHECK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#FF9966] hover:bg-[#FF8850] text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"
             >
               事前診断をはじめる
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
