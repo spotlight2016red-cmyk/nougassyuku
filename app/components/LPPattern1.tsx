@@ -1,6 +1,5 @@
 import { Brain, Map, Heart, Lightbulb, ArrowRight, Users, Sprout } from 'lucide-react';
 import brainDiagram from '../../imports/ChatGPT_Image_2026_5_21__12_50_33.png';
-import { CAMP_BRAIN_CHECK_URL } from '../config';
 
 const LINE_URL = 'https://lin.ee/WD2dKl7';
 
@@ -161,9 +160,8 @@ export function LPPattern1() {
                 </div>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                参加者の方には、事前に簡易アプリ診断のリンクをお送りします（LINE公式から配布）。
-                当日までに24問の診断を行い、8タイプの仮判定と初期アバターで、
-                自分の考え方・動き方・力が出やすい環境の傾向を見える化します。
+                お申し込みが確定した方に、LINEで簡易アプリ診断のリンクをお送りします。
+                当日までに診断を行っていただき、自分の考え方・動き方・力が出やすい環境の傾向を仮で見える化します。
               </p>
             </div>
 
@@ -184,23 +182,16 @@ export function LPPattern1() {
             </div>
           </div>
 
-          <div className="mt-8 flex flex-col items-center gap-6">
+          <div className="mt-8 flex justify-center">
             <div className="inline-flex items-center gap-3 text-gray-500 text-sm">
-              <span>事前診断</span>
+              <span>申込確定</span>
+              <ArrowRight className="w-4 h-4 text-[#FF9966]" />
+              <span>事前診断（LINE送付）</span>
               <ArrowRight className="w-4 h-4 text-[#FF9966]" />
               <span>合宿当日</span>
               <ArrowRight className="w-4 h-4 text-[#FF9966]" />
               <span className="text-[#FF9966] font-medium">取扱説明書の完成</span>
             </div>
-            <a
-              href={CAMP_BRAIN_CHECK_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#FF9966] hover:bg-[#FF8850] text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"
-            >
-              事前診断をはじめる
-              <ArrowRight className="w-5 h-5" />
-            </a>
           </div>
         </div>
       </section>
