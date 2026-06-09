@@ -17,5 +17,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "app/App.tsx", "app/components/LPPattern1.tsx", "vite.config.ts"]
+  "include": ["src", "app", "features", "vite.config.ts"]
 }
