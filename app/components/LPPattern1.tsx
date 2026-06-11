@@ -1,5 +1,6 @@
 import { Brain, Map, Heart, Lightbulb, ArrowRight, Users, Sprout } from 'lucide-react';
 import brainDiagram from '../../imports/ChatGPT_Image_2026_5_21__12_50_33.png';
+import { CampFlowSection } from './CampFlowSection';
 
 const LINE_URL = 'https://lin.ee/WD2dKl7';
 
@@ -196,8 +197,10 @@ export function LPPattern1() {
         </div>
       </section>
 
+      <CampFlowSection />
+
       {/* Visual Workshop Flow */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-white to-[#FFF5EB]">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl text-center text-gray-800 mb-16">
             5つのステップで自分を知る
